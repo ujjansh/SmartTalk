@@ -1,0 +1,241 @@
+[
+  {
+    "input": "Hey, let's watch a movie.",
+    "output": {
+      "hall": {
+        "lights": "off"
+      },
+      "living_room": {
+        "fan": "on",
+        "lights": "dim",
+        "tv": "on"
+      }
+    }
+  },
+  {
+    "input": "I'm going to sleep, set up the house.",
+    "output": {
+      "bedroom": {
+        "ac": "22\u00b0C",
+        "blinds": "close",
+        "fan": "on",
+        "lights": "off"
+      },
+      "hall": {
+        "lights": "off"
+      },
+      "kitchen": {
+        "lights": "off"
+      },
+      "living_room": {
+        "lights": "off",
+        "tv": "off"
+      }
+    }
+  },
+  {
+    "input": "Good morning, wake up mode.",
+    "output": {
+      "bathroom": {
+        "geyser": "on",
+        "lights": "on"
+      },
+      "bedroom": {
+        "blinds": "open",
+        "fan": "off",
+        "lights": "bright"
+      },
+      "kitchen": {
+        "exhaust": "on",
+        "lights": "on"
+      }
+    }
+  },
+  {
+    "input": "Hey home, I want to relax.",
+    "output": {
+      "bedroom": {
+        "ac": "23\u00b0C",
+        "lights": "dim"
+      },
+      "living_room": {
+        "fan": "on",
+        "lights": "warm",
+        "music_system": "relax"
+      }
+    }
+  },
+  {
+    "input": "Time to party, set up the house.",
+    "output": {
+      "dining_room": {
+        "lights": "bright"
+      },
+      "hall": {
+        "lights": "bright"
+      },
+      "kitchen": {
+        "lights": "on"
+      },
+      "living_room": {
+        "fan": "on",
+        "lights": "bright",
+        "music_system": "party",
+        "tv": "on"
+      }
+    }
+  },
+  {
+    "input": "Hey, working from home.",
+    "output": {
+      "dining_room": {
+        "ac": "23\u00b0C"
+      },
+      "kitchen": {
+        "lights": "on"
+      },
+      "study_room": {
+        "computer": "on",
+        "fan": "on",
+        "lights": "bright"
+      }
+    }
+  },
+  {
+    "input": "Time for dinner, set up.",
+    "output": {
+      "dining_room": {
+        "ac": "23\u00b0C",
+        "fan": "on",
+        "lights": "warm"
+      },
+      "kitchen": {
+        "exhaust": "on",
+        "lights": "on"
+      },
+      "living_room": {
+        "music_system": "soft"
+      }
+    }
+  },
+  {
+    "input": "Time to cook, set up the kitchen.",
+    "output": {
+      "kitchen": {
+        "exhaust": "on",
+        "fan": "on",
+        "lights": "bright"
+      }
+    }
+  },
+  {
+    "input": "I'm leaving, turn everything off.",
+    "output": {
+      "balcony": {
+        "lights": "off"
+      },
+      "bathroom": {
+        "exhaust": "off",
+        "geyser": "off",
+        "lights": "off"
+      },
+      "bedroom": {
+        "ac": "off",
+        "fan": "off",
+        "lights": "off"
+      },
+      "dining_room": {
+        "ac": "off",
+        "fan": "off",
+        "lights": "off"
+      },
+      "hall": {
+        "lights": "off",
+        "tv": "off"
+      },
+      "kitchen": {
+        "exhaust": "off",
+        "fan": "off",
+        "lights": "off"
+      },
+      "living_room": {
+        "fan": "off",
+        "lights": "off",
+        "music_system": "off",
+        "tv": "off"
+      },
+      "study_room": {
+        "computer": "off",
+        "fan": "off",
+        "lights": "off"
+      }
+    }
+  },
+  {
+    "input": "Focus mode on.",
+    "output": {
+      "bedroom": {
+        "lights": "off"
+      },
+      "living_room": {
+        "music_system": "off",
+        "tv": "off"
+      },
+      "study_room": {
+        "computer": "on",
+        "fan": "on",
+        "lights": "bright"
+      }
+    }
+  },
+  {
+    "input": "Could you open the blinds in the bedroom?",
+    "output": {
+      "bedroom": {
+        "blinds": "open"
+      }
+    }
+  },
+  {
+    "input": "I want the fan in the dining_room off.",
+    "output": {
+      "dining_room": {
+        "fan": "off"
+      }
+    }
+  },
+  {
+    "input": "Hey home, adjust the lights to warm in the bathroom and Please set the ac to 21\u00b0C in the dining_room.",
+    "output": {
+      "bathroom": {
+        "lights": "warm"
+      },
+      "dining_room": {
+        "ac": "21\u00b0C"
+      }
+    }
+  },
+  {
+    "input": "I want to open the blinds in the balcony, also set the lights to warm in the balcony.",
+    "output": {
+      "balcony": {
+        "blinds": "open",
+        "lights": "warm"
+      }
+    }
+  },
+  {
+    "input": "Please set the ac to 20\u00b0C in the dining_room, then shut off the fan in the bedroom, then activate the exhaust in the kitchen thanks.",
+    "output": {
+      "bedroom": {
+        "fan": "off"
+      },
+      "dining_room": {
+        "ac": "20\u00b0C"
+      },
+      "kitchen": {
+        "exhaust": "on"
+      }
+    }
+  }
+]
